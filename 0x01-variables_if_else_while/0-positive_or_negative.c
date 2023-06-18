@@ -6,7 +6,7 @@
  * main - Entry point
  * Return: Always 0 (Good)
  */
-int main()
+int main(void)
 {
 	int n;
 
