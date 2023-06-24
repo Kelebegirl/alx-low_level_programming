@@ -8,15 +8,15 @@
 
 void print_diagonal(int n)
 {
-	int love, care;
+	int x, space;
 
 	if (n <= 0)
 		_putchar('\n');
 	else
 	{
-		for (love = 1; love <= n; love++)
+		for (x = 1; x <= n; x++)
 		{
-			for (care = 1; care <= love; care++)
+			for (space = 1; space <= x; space++)
 				_putchar(' ');
 			_putchar(92); /*is equal to '/' char*/
 			_putchar('\n');
