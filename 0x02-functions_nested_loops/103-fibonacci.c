@@ -2,6 +2,7 @@
 
 /**
  * main - entry point
+ * Description: prints the sum of the even-valued terms
  *
  * Return: 0 (Good)
  */
