@@ -9,7 +9,7 @@
 int main(void)
 {
         int a, b, c;
-        int add largest;
+        int largest;
 
 	a = 972;
 	b = -98;
