@@ -3,6 +3,8 @@
 /**
  * puts_half - print half of a string
  * @*str: input string
+ * Description: print the last character of the n 
+ * string n = (length_of_the_string - 1) / 2
  */
 
 void puts_half(char *str)
