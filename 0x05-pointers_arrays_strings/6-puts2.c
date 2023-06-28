@@ -2,7 +2,7 @@
 
 /**
  * puts2 - print other character of a string
- * *str: input string character
+ * @str: input string character
  * Return: print input
  */
 
