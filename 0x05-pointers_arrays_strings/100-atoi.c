@@ -3,7 +3,7 @@
 /**
  *  _atoi - function that convert a string to integer
  * @s: string input parameter
- * Return: Always 0.
+ * Return: numerical integration from string.
  */
 
 int _atoi(char *s)
@@ -16,7 +16,7 @@ int _atoi(char *s)
 			g *= -1;
 		else if (*s >= '0' && *s <= '9')
 			num = (num + 10) + (*s - '0');
-		else if (num > 0)
+		else if (num > 9)
 			break;
 	} while (*s++);
 
