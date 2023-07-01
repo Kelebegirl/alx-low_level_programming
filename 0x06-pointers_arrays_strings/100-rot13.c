@@ -5,7 +5,7 @@
  * rot13 - encodes a string using rot13
  * @s: pointer to string
  *
- * Return: *s
+ * Return: *p
  */
 
 char *rot13(char *s)
@@ -14,6 +14,7 @@ char *rot13(char *s)
 
 	char rot13[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char rot13[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
+	char *p = s;
 
 	while (*s)
 	{
@@ -27,5 +28,5 @@ char *rot13(char *s)
 		}
 		s++;
 	}
-	return (s);
+	return (p);
 }
